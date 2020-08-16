@@ -1,0 +1,135 @@
+/* IMPORTING RESET CODE */
+@import "reset.css";
+/* ------------------------------- */
+
+header{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: 'Manrope', sans-serif;
+}
+header #header-sign-in{
+    display: flex;
+    justify-content: right;
+}
+header #header-sign-in a{
+    padding: 6px;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+header #header-logo-searchbar{
+    margin: 10px 0px;
+    display: flex;
+}
+header #header-logo-searchbar form{
+    width: 65%;
+    margin: 0px auto;
+}
+header #header-logo-searchbar form input{
+    width: 70%;
+    height: 39px;
+    border: 1px solid #000;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0 5px 0 20px;
+    line-height: 100%;
+}
+/* ---------------------- */
+
+header #header-logo-searchbar form button{
+    height: 39px;
+    padding: 0;
+    border: none;
+    margin: 0 0 0 -4px;
+}
+header #header-logo-searchbar form button img{
+    padding: 1px;
+    height: 100%;
+    margin-bottom: 2px;
+}
+
+/* ---------------------------------- */
+
+header a#header-logo-searchbar-cart{
+    color: black;
+    background-color: rgb(233, 199, 135);
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 0px 25px;
+    height: 40px;
+    margin-right: 7px;
+    border-radius: 3px;
+}
+header nav{
+    margin-top: 20px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+}
+header nav ul li{
+    height: 40px;
+    transition: background-color 0.5s ease;
+}
+header nav ul li:hover{
+    background-color: rgb(233, 199, 135);
+    
+}
+header nav ul li a{
+    color: white;
+    font-weight: 500;
+    padding: 0 20px;
+    line-height: 40px;
+    transition: color 0.5s ease;
+}
+header nav ul li:hover a{
+    color: black;
+    font-weight: 500;
+}
+
+/* Dropdown Button */
+header nav .dropbtn {
+  color: white;
+  
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+header nav .dropdown {
+  position: relative;
+  display: block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+header nav .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+/* Show the dropdown menu on hover */
+header nav .dropdown:hover .dropdown-content {display: block;}
+header nav .dropdown:hover .dropdown-content a{
+    display: block;
+    color: #aaa;
+}
+header nav .dropdown:hover .dropdown-content a:hover{
+    background-color: rgb(233, 207, 135);
+    color: black;
+    box-shadow: 0 0 2px rgb(170, 139, 81);
+}
+
+
+
+
+/* UTILITY CLASSES */
+.wrapper{
+    margin: 0px auto;
+    width: 95%;
+}
